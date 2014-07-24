@@ -14,8 +14,7 @@ activitydescription FACTOR
 
 [3]
 avgtBodyAccmeanX NUMERIC	
-	The mean of estimated mean of body accelerometer 3-axial raw signal (time domain) X direction  
-  
+	The mean of estimated mean of body accelerometer 3-axial raw signal (time domain) X direction    
 [4]
 avgtBodyAccmeanY NUMERIC 
 	The mean of estimated mean of body accelerometer 3-axial raw signal (time domain) Y direction       
