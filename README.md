@@ -27,13 +27,13 @@ I create one R script called run_analysis.R that does the following.
 
 In this repository you find:
 
-README.md (this file): explains how the the scripts work.  
+README.md (this file): describes the project and explains how the the scripts work.  
 
-CodeBook.txt: a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
+CodeBook.txt: a code book that describes the variables. For the codebook, I follow the format of the codebook in Quiz 1 question 1 (https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FPUMSDataDict06.pdf)
 
-run_analysys.R the R script explained before
+run_analysys.R: the R script explained before
 
-tidyDataStep.txt the final tidy data set
+tidyDataStep.txt: the final tidy data set
 
 
 ### The script run_analysis.R did it with this steps:
