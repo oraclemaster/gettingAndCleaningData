@@ -1,7 +1,8 @@
 gettingAndCleaningData
 ======================
 
-Getting and Cleaning Data Course Project
+
+### Getting and Cleaning Data Course Project
 
 The purpose of this project is collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
@@ -20,6 +21,20 @@ I create one R script called run_analysis.R that does the following.
     Uses descriptive activity names to name the activities in the data set
     Appropriately labels the data set with descriptive variable names. 
     Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+
+### Contents of this Repository
+
+In this repository you find:
+
+README.md (this file): explains how the the scripts work.  
+
+CodeBook.txt: a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data.
+
+run_analysys.R the R script explained before
+
+tidyDataStep.txt the final tidy data set
+
 
 ### The script run_analysis.R did it with this steps:
 
@@ -50,6 +65,15 @@ I create one R script called run_analysis.R that does the following.
 	write the tidy data set 
 
 	"comment" step for TEST PURPOSE load written tidy data set for check it
+
+
+### Thr dimension of tidy data set
+
+The dimension of tidy data set are 180x68 because we have:
+
+30 subjects and 6 activities = 30 * 6 = 180 rows
+
+subject + activity description + 66 mean and std features (not including angle nor frequencies) = 68 columns
 
 
 ### You can verify the loading of tidy data set with this command:
